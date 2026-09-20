@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+.venv/
+venv/
+
+# Trained artifacts, reports and detection outputs (reproducible via the CLI)
+saved_models/
+output/
+*.pth
+*.pt
+*.onnx
+
+.ipynb_checkpoints/
+.DS_Store
